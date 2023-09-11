@@ -8,6 +8,9 @@ from pathlib import Path
 
 
 class DataIngestion:
+    """
+    This calss is responsible for downloading the data from the source
+    """
     def __init__(self, config: DataIngestionConfig):
         self.config = config
     
